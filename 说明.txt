@@ -1,0 +1,6 @@
+后端：.net framework 4.5, 代码在OceanWillMarineNet45目录
+前端：React. 打包好的静态文件已经放到项目的Portal目录, 用Visual Studio可以直接运行
+数据库： SQL Server. 运行DB目录中的脚本创建数据库和表以及初始数据。然后修改后端代码中Web.config中的数据库连接<connectionStrings>
+发布：发布文件在PublishOutput.zip中，修改配置文件Web.config中的数据库连接<connectionStrings>后可直接拷贝到阿里云网站部署路径
+
+
